@@ -1,8 +1,12 @@
+import api from '../services/api'
+
 function Poke() {
 
-    function index(){
+    async function index(url = '/pokemon'){
 
-        //do request here
+        const response = await api.get(url)
+        const data = await response.data
+        return data
     }
 
     return {

@@ -2,7 +2,10 @@ function Footer(){
 
     return (
         <footer>
-            <h1>Footer</h1>
+            
+            <a href="https://github.com/otavosousa/pokedex" target="_blank" rel="noopener noreferrer">
+                https://github.com/otavosousa/pokedex
+            </a>
         </footer>
     )
 }
